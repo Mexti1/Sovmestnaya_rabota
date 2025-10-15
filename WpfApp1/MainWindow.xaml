@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Нажми меня" Width="100" Height="30"/>
-        <Label Content="Привет из Git!" FontSize="16"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Нажми меня" Height="30" Click="Button_Click" Grid.Row="1" Margin="350,187,334,-186"/>
+        <Label Content="Привет из Git!" FontSize="16" Grid.Row="1"/>
     </Grid>
 </Window>
