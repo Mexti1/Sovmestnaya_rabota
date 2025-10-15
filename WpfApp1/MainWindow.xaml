@@ -8,5 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Нажми меня" Width="100" Height="30"/>
+        <Label Content="Привет из Git!" FontSize="16"/>
     </Grid>
 </Window>
